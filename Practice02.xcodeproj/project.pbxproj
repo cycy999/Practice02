@@ -43,9 +43,9 @@
 		B617AB122227D62D00496AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B617AB192227D6D800496AE1 /* Practice01-Brigding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practice01-Brigding-Header.h"; sourceTree = "<group>"; };
 		B617AB262227D72800496AE1 /* Practice02Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice02Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B617AB272227D72800496AE1 /* InfoDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoDev.plist; path = /Users/chenyan/Desktop/codes/Practice02/InfoDev.plist; sourceTree = "<absolute>"; };
 		B617AB342227D7A000496AE1 /* Practice02Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice02Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B617AB352227D7A100496AE1 /* InfoTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoTest.plist; path = /Users/chenyan/Desktop/codes/Practice02/InfoTest.plist; sourceTree = "<absolute>"; };
+		B617AB362227DA5700496AE1 /* InfoDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoDev.plist; sourceTree = "<group>"; };
+		B617AB372227DA5700496AE1 /* InfoTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoTest.plist; sourceTree = "<group>"; };
 		BEA817007D9508065B6D4F61 /* Pods-practice-Practice02.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-Practice02.debug.xcconfig"; path = "Pods/Target Support Files/Pods-practice-Practice02/Pods-practice-Practice02.debug.xcconfig"; sourceTree = "<group>"; };
 		C0B1E99D39B86525DBDC7A08 /* Pods-practice-Practice02Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practice-Practice02Test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-practice-Practice02Test/Pods-practice-Practice02Test.debug.xcconfig"; sourceTree = "<group>"; };
 		D4D449430FF7FDB56CE3B21B /* Pods_practice_Practice02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practice_Practice02.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,8 +127,8 @@
 				B617AB0F2227D62D00496AE1 /* LaunchScreen.storyboard */,
 				B617AB192227D6D800496AE1 /* Practice01-Brigding-Header.h */,
 				B617AB122227D62D00496AE1 /* Info.plist */,
-				B617AB272227D72800496AE1 /* InfoDev.plist */,
-				B617AB352227D7A100496AE1 /* InfoTest.plist */,
+				B617AB362227DA5700496AE1 /* InfoDev.plist */,
+				B617AB372227DA5700496AE1 /* InfoTest.plist */,
 			);
 			name = Configure;
 			sourceTree = "<group>";
@@ -631,13 +631,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/InfoDev.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Practice02/InfoDev.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-DPRACTICEDEV";
-				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
+				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02Dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
@@ -651,13 +651,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/InfoDev.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Practice02/InfoDev.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-DPRACTICEDEV";
-				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
+				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02Dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
@@ -671,13 +671,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/InfoTest.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Practice02/InfoTest.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-DPRACTICETEST";
-				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
+				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
@@ -691,13 +691,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "$(SRCROOT)/InfoTest.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Practice02/InfoTest.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				OTHER_SWIFT_FLAGS = "-DPRACTICETEST";
-				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
+				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
