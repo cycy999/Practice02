@@ -41,7 +41,7 @@
 		B617AB0D2227D62D00496AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B617AB102227D62D00496AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B617AB122227D62D00496AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B617AB192227D6D800496AE1 /* Practice01-Brigding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practice01-Brigding-Header.h"; sourceTree = "<group>"; };
+		B617AB192227D6D800496AE1 /* Practice02-Brigding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practice02-Brigding-Header.h"; sourceTree = "<group>"; };
 		B617AB262227D72800496AE1 /* Practice02Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice02Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B617AB342227D7A000496AE1 /* Practice02Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice02Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B617AB362227DA5700496AE1 /* InfoDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = InfoDev.plist; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 				B617AB0A2227D62C00496AE1 /* Main.storyboard */,
 				B617AB0D2227D62D00496AE1 /* Assets.xcassets */,
 				B617AB0F2227D62D00496AE1 /* LaunchScreen.storyboard */,
-				B617AB192227D6D800496AE1 /* Practice01-Brigding-Header.h */,
+				B617AB192227D6D800496AE1 /* Practice02-Brigding-Header.h */,
 				B617AB122227D62D00496AE1 /* Info.plist */,
 				B617AB362227DA5700496AE1 /* InfoDev.plist */,
 				B617AB372227DA5700496AE1 /* InfoTest.plist */,
@@ -600,7 +600,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice02/Practice02-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -619,7 +619,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice02/Practice02-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -639,7 +639,7 @@
 				OTHER_SWIFT_FLAGS = "-DPRACTICEDEV";
 				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02Dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice02/Practice02-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -659,7 +659,7 @@
 				OTHER_SWIFT_FLAGS = "-DPRACTICEDEV";
 				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02Dev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice02/Practice02-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -679,7 +679,7 @@
 				OTHER_SWIFT_FLAGS = "-DPRACTICETEST";
 				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice02/Practice02-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -699,7 +699,7 @@
 				OTHER_SWIFT_FLAGS = "-DPRACTICETEST";
 				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice02/Practice02-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
