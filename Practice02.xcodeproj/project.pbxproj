@@ -12,6 +12,16 @@
 		B617AB0C2227D62C00496AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B617AB0A2227D62C00496AE1 /* Main.storyboard */; };
 		B617AB0E2227D62D00496AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B617AB0D2227D62D00496AE1 /* Assets.xcassets */; };
 		B617AB112227D62D00496AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B617AB0F2227D62D00496AE1 /* LaunchScreen.storyboard */; };
+		B617AB1C2227D72800496AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617AB082227D62C00496AE1 /* ViewController.swift */; };
+		B617AB1D2227D72800496AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617AB062227D62C00496AE1 /* AppDelegate.swift */; };
+		B617AB202227D72800496AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B617AB0F2227D62D00496AE1 /* LaunchScreen.storyboard */; };
+		B617AB212227D72800496AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B617AB0D2227D62D00496AE1 /* Assets.xcassets */; };
+		B617AB222227D72800496AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B617AB0A2227D62C00496AE1 /* Main.storyboard */; };
+		B617AB2A2227D7A000496AE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617AB082227D62C00496AE1 /* ViewController.swift */; };
+		B617AB2B2227D7A000496AE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B617AB062227D62C00496AE1 /* AppDelegate.swift */; };
+		B617AB2E2227D7A000496AE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B617AB0F2227D62D00496AE1 /* LaunchScreen.storyboard */; };
+		B617AB2F2227D7A000496AE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B617AB0D2227D62D00496AE1 /* Assets.xcassets */; };
+		B617AB302227D7A000496AE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B617AB0A2227D62C00496AE1 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +32,29 @@
 		B617AB0D2227D62D00496AE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B617AB102227D62D00496AE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B617AB122227D62D00496AE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B617AB192227D6D800496AE1 /* Practice01-Brigding-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Practice01-Brigding-Header.h"; sourceTree = "<group>"; };
+		B617AB262227D72800496AE1 /* Practice02Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice02Dev.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B617AB272227D72800496AE1 /* InfoDev.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoDev.plist; path = /Users/chenyan/Desktop/codes/Practice02/InfoDev.plist; sourceTree = "<absolute>"; };
+		B617AB342227D7A000496AE1 /* Practice02Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practice02Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B617AB352227D7A100496AE1 /* InfoTest.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InfoTest.plist; path = /Users/chenyan/Desktop/codes/Practice02/InfoTest.plist; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		B617AB002227D62C00496AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B617AB1E2227D72800496AE1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B617AB2C2227D7A000496AE1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				B617AB032227D62C00496AE1 /* Practice02.app */,
+				B617AB262227D72800496AE1 /* Practice02Dev.app */,
+				B617AB342227D7A000496AE1 /* Practice02Test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,7 +98,10 @@
 				B617AB0A2227D62C00496AE1 /* Main.storyboard */,
 				B617AB0D2227D62D00496AE1 /* Assets.xcassets */,
 				B617AB0F2227D62D00496AE1 /* LaunchScreen.storyboard */,
+				B617AB192227D6D800496AE1 /* Practice01-Brigding-Header.h */,
 				B617AB122227D62D00496AE1 /* Info.plist */,
+				B617AB272227D72800496AE1 /* InfoDev.plist */,
+				B617AB352227D7A100496AE1 /* InfoTest.plist */,
 			);
 			name = Configure;
 			sourceTree = "<group>";
@@ -90,6 +124,40 @@
 			name = Practice02;
 			productName = Practice02;
 			productReference = B617AB032227D62C00496AE1 /* Practice02.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B617AB1A2227D72800496AE1 /* Practice02Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B617AB232227D72800496AE1 /* Build configuration list for PBXNativeTarget "Practice02Dev" */;
+			buildPhases = (
+				B617AB1B2227D72800496AE1 /* Sources */,
+				B617AB1E2227D72800496AE1 /* Frameworks */,
+				B617AB1F2227D72800496AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practice02Dev;
+			productName = Practice02;
+			productReference = B617AB262227D72800496AE1 /* Practice02Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B617AB282227D7A000496AE1 /* Practice02Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B617AB312227D7A000496AE1 /* Build configuration list for PBXNativeTarget "Practice02Test" */;
+			buildPhases = (
+				B617AB292227D7A000496AE1 /* Sources */,
+				B617AB2C2227D7A000496AE1 /* Frameworks */,
+				B617AB2D2227D7A000496AE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Practice02Test;
+			productName = Practice02;
+			productReference = B617AB342227D7A000496AE1 /* Practice02Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,6 +189,8 @@
 			projectRoot = "";
 			targets = (
 				B617AB022227D62C00496AE1 /* Practice02 */,
+				B617AB1A2227D72800496AE1 /* Practice02Dev */,
+				B617AB282227D7A000496AE1 /* Practice02Test */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +206,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B617AB1F2227D72800496AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B617AB202227D72800496AE1 /* LaunchScreen.storyboard in Resources */,
+				B617AB212227D72800496AE1 /* Assets.xcassets in Resources */,
+				B617AB222227D72800496AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B617AB2D2227D7A000496AE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B617AB2E2227D7A000496AE1 /* LaunchScreen.storyboard in Resources */,
+				B617AB2F2227D7A000496AE1 /* Assets.xcassets in Resources */,
+				B617AB302227D7A000496AE1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -145,6 +235,24 @@
 			files = (
 				B617AB092227D62C00496AE1 /* ViewController.swift in Sources */,
 				B617AB072227D62C00496AE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B617AB1B2227D72800496AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B617AB1C2227D72800496AE1 /* ViewController.swift in Sources */,
+				B617AB1D2227D72800496AE1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B617AB292227D7A000496AE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B617AB2A2227D7A000496AE1 /* ViewController.swift in Sources */,
+				B617AB2B2227D7A000496AE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +406,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,6 +424,83 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B617AB242227D72800496AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/InfoDev.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DPRACTICEDEV";
+				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B617AB252227D72800496AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/InfoDev.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DPRACTICEDEV";
+				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B617AB322227D7A000496AE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/InfoTest.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DPRACTICETEST";
+				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B617AB332227D7A000496AE1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/InfoTest.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DPRACTICETEST";
+				PRODUCT_BUNDLE_IDENTIFIER = qt.Practice02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/Practice01-Brigding-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -337,6 +523,24 @@
 			buildConfigurations = (
 				B617AB162227D62D00496AE1 /* Debug */,
 				B617AB172227D62D00496AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B617AB232227D72800496AE1 /* Build configuration list for PBXNativeTarget "Practice02Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B617AB242227D72800496AE1 /* Debug */,
+				B617AB252227D72800496AE1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B617AB312227D7A000496AE1 /* Build configuration list for PBXNativeTarget "Practice02Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B617AB322227D7A000496AE1 /* Debug */,
+				B617AB332227D7A000496AE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

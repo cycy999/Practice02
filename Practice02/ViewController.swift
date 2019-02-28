@@ -8,6 +8,14 @@
 
 import UIKit
 
+#if PRACTICEDEV
+let testString = "this is a dev target"
+#elseif PRACTICETEST
+let testString = "this is a test target"
+#else
+let testString = "this is a normal target"
+#endif
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
