@@ -15,6 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        
+//        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15)], for: .normal)
+//        UINavigationBar.appearance().barTintColor = UIColor.blue.withAlphaComponent(0.5)
+//        UINavigationBar.appearance().titleTextAttributes = [
+//            NSAttributedString.Key.foregroundColor: UIColor.white
+//        ]
+//        UINavigationBar.appearance().tintColor = UIColor.white
+        
+        window = UIWindow.init(frame: DEVICE_RECT)
+        window?.rootViewController = UINavigationController.init(rootViewController: MainTabBarController())
+        window?.makeKeyAndVisible()
+        
         return true
     }
 
